@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Style for each individual button */
+  .button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #2980b9;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
